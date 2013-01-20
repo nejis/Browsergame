@@ -1,0 +1,30 @@
+Rohstoff-Gebäude
+
+1: Edelmetalfabrik img_1.png  50x50px
+2: Deuteriumfabrik img_2.png  50x50px
+3: Atomkraftwerk   img_3.png  50x50px
+4: Solarfeld       img_4.png  50x50px
+5: Antimaterie-Kraftwerk img_5.png 50x50px
+6: Energiespeicher klein img_6.png 50x50px
+7: Energiespeicher groß  img_7.png 50x50px
+8: Deuterium Speicher    img_8.png 50x50px
+9: Edelmetall Speicher   img_9.png 50x50px
+
+Infrastruktur-Gebäude
+
+10: Forschungslabor img_10.png 100x80px
+11: Handelszentrum  img_11.png  80x80px
+12: Kommunikationszentrum   img_12.png 70x70px
+13: Farmerindustire         img_13.png 50x50px
+14: Roboterfabrik           img_14.png 50x50px
+15: Nahrungsmittelherstellung img_15.png 50x50px
+
+Militär-Gebäude
+
+16: Hauptstützpunkt     img_16.png 120x120px
+17: Fahrzeugfabrik      img_17.png  80x80 px
+18: Schiffswerft        img_18.png  50x100px
+19: Waffenfabrik        img_19.png  80x80 px
+20: Verteidigungseinrichtung    img_20.png 80x80 px
+21: Raumhanger                  img_21.png 50x100px
+22: Fahrzeughanger              img_22.png 50x100px

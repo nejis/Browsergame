@@ -1,0 +1,103 @@
+*{margin:0px;
+  padding:0px;}
+  
+body{background:#000;
+     color:#fff;}
+                     
+#horizont{width:100%;
+	        height:auto;
+	        background:#222;    
+	        margin:0px auto;}
+	        
+#einloggen{width:100%; 
+	         margin:0px auto;
+	         padding:5px; 	          
+           font-family:Trebuchet MS, Verdana, Arial, sans-serif; 
+           color:#fff;           
+           font-size:20px; 
+           text-align:center;}  
+           
+#einloggen table{margin-left:auto;
+                 margin-right:auto;}
+                 
+#einloggen td{padding-left:5px;
+              padding-right:5px;}
+              
+#logoff{background:#222;
+        color:#fff; 
+				text-decoration: none;
+				font-family: Arial, Helvetica, sans-serif;
+				text-align: center;		
+				padding:5px;
+        border-radius:5px;
+        border:1px solid #111;
+        box-shadow: 2px 2px 5px #000;}  
+       
+#logoff:hover{box-shadow: inset 0px 0px 5px #000;
+              color:#F31814;
+              padding:7px 5px 3px 5px;} 
+             
+#wrapper{width:1000px;
+	       margin:20px auto;}  
+                                 
+#main{width:1000px;}
+         
+#text_links{width:180px;
+            height:1000px;
+            background:#222;
+            float:left;
+            margin-bottom:20px;}  
+            
+#text_rechts{width:800px;
+             height:1000px;
+             background:#222;
+             margin-left:20px;
+             float:right;
+             margin-bottom:20px;}  
+           
+#fuss{color:#fff;
+	  	background:#222;
+	  	width:1000px;
+      height:100px;
+      clear:both;}
+      
+#fuss_2{margin-left:500px;
+        padding-top:20px;}
+        
+#fuss_3{margin-left:550px;}
+      
+a{text-decoration:none;
+  color:#fff;}
+
+a:hover{color:#F31814;
+        text-decoration:underline;}
+        
+#rohstoffleiste{height:50px;
+                width:100%;
+                background:#222;}
+              
+#rohstoffleiste table{width:100%;
+                      height:100%;
+                      text-align:center;}
+       
+#strukturen_1 td{vertical-align:middle;
+                 text-align:left;}
+                 
+#strukturen_1 table{float:left;
+                    margin:40px;
+                    border-width: 2px;
+                    border-style: outset;
+                    border-color: #000;}
+                    
+#strukturen_1 table:hover{float:left;
+                          margin:40px;
+                          border-width: 2px;
+                          border-style: inset;
+                          border-color: #000;}
+       
+#test{clear:both;}
+
+#basis{position: absolute;
+margin: 25px;
+z-index:1;
+}

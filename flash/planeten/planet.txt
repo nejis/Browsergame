@@ -1,0 +1,9 @@
+planet1  lava
+planet2  eis
+planet3  sumpf
+planet4
+planet5
+planet6
+planet7
+planet8
+planet9
