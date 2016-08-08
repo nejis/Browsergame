@@ -104,7 +104,7 @@ if (isset($_GET['index']) && $_GET['index'] == "1")
             if(!empty($_POST["vorname"]) && !empty($_POST["nachname"]) && !empty($_POST["nickname"]) && !empty($_POST["email"]) && !empty($_POST["passwort"]))	{
             		
             			if($_POST["passwort"][0] !== $_POST["passwort"][1])	{
-                	$error_msg = "Die Passwörter stimmen nicht überein.";
+                	$error_msg = "Die PasswÃ¶rter stimmen nicht Ã¼berein.";
                 	}
                   
                   $_POST["passwort"] = md5($_POST["passwort"][0]);
@@ -116,20 +116,20 @@ if (isset($_GET['index']) && $_GET['index'] == "1")
                   $_POST["nickname"] = trim($_POST["nickname"]);
                   
                   if(!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL))	{
-                  	$error_msg = "Die E-Mail-Adresse ist ungültig.";                  	
+                  	$error_msg = "Die E-Mail-Adresse ist ungÃ¼ltig.";                  	
                   }            
                            				
                 }                
                 else  {
-                  $error_msg = "Das Formular wurde nicht vollständig ausgefüllt.";	
+                  $error_msg = "Das Formular wurde nicht vollstÃ¤ndig ausgefÃ¼llt.";	
                 } 
                 
                 if(!isset($error_msg))  {
                 
                 	$serverhost  = "ftp.lima-city.de";
-									$serverlogin = "starevolution";
-									$serverpass  = "linux2012p1";
-									$dbname 		 = "db_270008_1";
+									$serverlogin = "***";
+									$serverpass  = "***";
+									$dbname 		 = "***";
 							                      
                   $db = new mysqli($serverhost, $serverlogin, $serverpass, $dbname) or die("Keine Verbindung zum Server!");                  
                   $sql = "INSERT INTO `member`(`Vorname`, `Nachname`, `Spielername`, `Email`, `Passwort`, `Datum`) VALUES (?, ?, ?, ?, ?, NOW())";
